@@ -31,7 +31,7 @@ Made a calculator in HTML/CSS that resembles the current iOS 25 calculator (blac
 
 ![calculator](/assets/images/calc.png)
 
-```html
+````html
 <div>
   <input
     type="text"
@@ -73,26 +73,31 @@ Made a calculator in HTML/CSS that resembles the current iOS 25 calculator (blac
     </tr>
   </table>
 </div>
-```
 
-`css
+```css
 body {
-  background-color: black;
+  background-color: black;
 }
+
 button {
-  border-radius: 50%;
-  width: 30px;
-  color: white;
+  border-radius: 50%;
+  width: 30px;
+  color: white;
 }
+
 .func {
   background-color: orange;
 }
+
 .topLeft {
   background-color: #888888;
 }
+
 .num {
   background-color: #484848;
 }
-  `
+```
 
-Read the first chapter of The Odin Project's lesson on JavaScript
+ Read the
+first chapter of The Odin Project's lesson on JavaScript
+
