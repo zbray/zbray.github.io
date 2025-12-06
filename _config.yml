@@ -5,10 +5,11 @@ description: "Code Log Blog"
 # Build Settings
 # theme: jekyll-theme-minimal
 remote_theme: abhinavs/moonwalk
-
+moonwalk:
+  theme: dark
+  show_theme_toggle: true
+  
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-
-
