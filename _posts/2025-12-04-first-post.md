@@ -4,9 +4,9 @@ title: "Hello World! My New Blog is Live"
 date: 2025-12-04 22:45:00 -0500
 ---
 
-First Post!
-8:30-9:30
-JavaScript
+# First Post - JavaScript
+
+5 December 2025 20:30-21:30
 
 Sandbox warm-up:
 
@@ -71,8 +71,7 @@ Made a calculator in HTML/CSS that resembles the current iOS 25 calculator (blac
 ```
 
 ```css
-body 
-{  
+body {
   background-color: black; 
 } 
 button { 
@@ -89,6 +88,76 @@ button {
 .num { 
   background-color: #484848; 
   } 
-  ```
+```
 
-Read thefirst chapter of The Odin Project's lesson on JavaScript
+## Notes
+
+Read the first chapter of The Odin Project's lesson on JavaScript
+
+## Variables and Operators
+
+### Lesson Overview
+
+- Run JS in HTML
+- `let` and `const`
+- number operations
+- string operations
+- logic and math operators
+
+### Variables
+
+The building blocks of any program, "storage containers" for data in your code.
+
+You can declare variables using the `let` keyword.
+
+```js
+let firstName = "John";
+let lastName = "Doe";
+
+console.log (firstName)
+console.log (lastName)
+```
+
+You can also re-assign variables:
+
+```js
+let age = 20;
+console.log(age) // outputs 20
+age = 52;
+console.log(age) // outputs 54
+```
+
+The re-assigning on line 3 does not require the `let` variable since it's already been declared on line 1.
+
+You'd use the `const` keyword for a variable you don't want to change
+
+```js
+const pi = 3.14;
+pi = 10;
+
+console.log(pi); // throws an error since you cannot re-assign const variables
+```
+
+`var` is a mostly deprecated way that variables were declared before the language introduced `let` and `const`
+
+Not used much at all any more.
+
+### Variable Naming [from javascript.info](https://javascript.info/variables#variable-naming)
+
+There are three limitations on variable names in JavaScript:
+
+1. Name must contain only letters, digits, or the symbols `$` and `_`
+2. First character must not be a digit.
+3. There is a [list of reserved words](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords) which cannot be used as variable names because they are used by the language itself (ex: `let`, `class`, `return`, `function`, etc)
+
+When the name contains multiple words, camelCase is commonly used.
+
+In JavaScript, `apple` and `APPLE` are two different variables.
+
+### Numbers
+
+JavaScript follows the standard mathematical Order of Operations
+
+1. **Parentheses** (or Brackets) are evaluated first.
+2. **Multiplication** and **Division** are done next, from left to right.
+3. **Addition** and **Subtraction** are done last, from left to right.
