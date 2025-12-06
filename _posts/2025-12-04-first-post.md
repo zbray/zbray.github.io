@@ -4,9 +4,9 @@ title: "Day One (Again)"
 date: 2025-12-04 22:45:00 -0500
 ---
 
-# First Post - JavaScript
-
 5 December 2025 20:30-21:30
+
+## JavaScript
 
 Sandbox warm-up:
 
@@ -90,11 +90,9 @@ button {
   } 
 ```
 
-## Notes
+## The Odin Project's JavaScript Lesson - Variables and Operators
 
 Read the first chapter of The Odin Project's lesson on JavaScript
-
-## Variables and Operators
 
 ### Lesson Overview
 
@@ -142,7 +140,7 @@ console.log(pi); // throws an error since you cannot re-assign const variables
 
 Not used much at all any more.
 
-### Variable Naming [from javascript.info](https://javascript.info/variables#variable-naming)
+#### Variable Naming [from javascript.info](https://javascript.info/variables#variable-naming)
 
 There are three limitations on variable names in JavaScript:
 
