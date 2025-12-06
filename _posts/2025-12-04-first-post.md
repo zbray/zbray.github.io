@@ -10,7 +10,7 @@ JavaScript
 
 Sandbox warm-up:
 
-- made a button in JavaScript that changes text on the page when you click a button
+- Made a button in JavaScript that changes text on the page when you click a button
 
 ```html
 <body>
@@ -33,12 +33,7 @@ Made a calculator in HTML/CSS that resembles the current iOS 25 calculator (blac
 
 ```html
 <div>
-  <input
-    type="text"
-    value="12345"
-    readonly
-    style="width: 128px; text-align: right"
-  />
+  <input type="text" value="12345" readonly style="width: 128px; text-align: right"/>
 
   <table>
     <tr>
@@ -80,24 +75,20 @@ body
 {  
   background-color: black; 
 } 
-
 button { 
   border-radius: 50%; 
   width:30px;   
   color: white; 
   } 
-
 .func { 
   background-color: orange; 
   } 
-  
 .topLeft {
   background-color: #888888; 
 } 
-
 .num { 
   background-color: #484848; 
   } 
   ```
-  
+
 Read thefirst chapter of The Odin Project's lesson on JavaScript
