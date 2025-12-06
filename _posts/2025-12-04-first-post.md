@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello World! My New Blog is Live"
+title: "Day One (Again)"
 date: 2025-12-04 22:45:00 -0500
 ---
 
