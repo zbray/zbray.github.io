@@ -6,9 +6,9 @@ date: 2025-12-04 22:45:00 -0500
 
 5 December 2025 20:30-21:30
 
-## JavaScript
+Today I warmed up with HTML and CSS and then moved on to The Odin Project's JavaScript lesson on Variables and Operators where I followed along and took some notes
 
-Sandbox warm-up:
+## Sandbox warm-up
 
 - Made a button in JavaScript that changes text on the page when you click a button
 
@@ -90,9 +90,7 @@ button {
   } 
 ```
 
-## The Odin Project's JavaScript Lesson - Variables and Operators
-
-Read the first chapter of The Odin Project's lesson on JavaScript
+## JavaScript - Variables and Operators (Odin Project)
 
 ### Lesson Overview
 
