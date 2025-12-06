@@ -9,3 +9,4 @@ remote_theme: abhinavs/moonwalk
 # Plugins
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
