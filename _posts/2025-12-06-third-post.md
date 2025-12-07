@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Night 3"
-date: 2025-12-06 22:45:00 -0500
+date: 2025-12-06 22:45:00
 ---
 
 6 December 2025, 9:00-10:00
@@ -47,4 +47,3 @@ function getAverage(marks){
 Completed the Knowledge Check questions that were left unfinished from Day 1, 4 December.
 
 Installed `nvm`, Node Version Manager - this allows us to change Node versions and upgrade node. Will install `npm` later as well.
-
