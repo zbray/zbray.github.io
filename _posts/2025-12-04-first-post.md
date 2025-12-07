@@ -142,7 +142,7 @@ console.log(pi); // throws an error since you cannot re-assign const variables
 
 Not used much at all any more.
 
-### Variable Naming [from javascript.info](https://javascript.info/variables#variable-naming)
+### Variable Naming (from [javascript.info](https://javascript.info/variables#variable-naming))
 
 There are three limitations on variable names in JavaScript:
 
