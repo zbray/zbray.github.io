@@ -47,3 +47,5 @@ function getAverage(marks){
 Completed the Knowledge Check questions that were left unfinished from Day 1, 4 December.
 
 Installed `nvm`, Node Version Manager - this allows us to change Node versions and upgrade node. Will install `npm` later as well.
+
+Took notes on Data Types and Conditions
