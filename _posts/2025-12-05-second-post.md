@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Place For Posts"
-date: 2025-12-05 22:45:00 -0500
+date: 2025-12-04 22:45:00 -0500
 ---
 
 5 December 2025, 8:30-9:00 and 9:50-10:30
