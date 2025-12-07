@@ -8,7 +8,8 @@ remote_theme: abhinavs/moonwalk
 moonwalk:
   theme: dark
   show_theme_toggle: true
-  
+  timezone: America/New_York
+
 # Plugins
 plugins:
   - jekyll-feed

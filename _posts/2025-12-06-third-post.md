@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Night 3"
-date: 2025-12-06 22:45:00
+date: 2025-12-06
 ---
 
 6 December 2025, 9:00-10:00
