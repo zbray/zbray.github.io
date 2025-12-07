@@ -162,13 +162,28 @@ JavaScript follows the standard mathematical Order of Operations
 
 - [What three keywords can you use to declare new variables?](https://www.theodinproject.com/lessons/foundations-variables-and-operators#variables)
 
->
+> `let`, `const`, `var`
 
 - [Which of the three variable declarations should you avoid and why?](https://www.theodinproject.com/lessons/foundations-variables-and-operators#variables)
+
+> `var` because it is mostly deprecated. It is similar to `let` in that it allowed variables to be re-assigned but has quirks that were cleaned up when `let` and `const` were introduced.
+
 - [What rules should you follow when naming variables?](https://javascript.info/variables#variable-naming)
+
+> Names must contain only letters, digits, and symbols including `$` or `_`. Variables cannot match names of JavaScript elements. Non-Latin letters are allowed but not recommended.
+
 - [What happens when you add numbers and strings together?](https://javascript.info/operators#string-concatenation-with-binary)
+
+> When any of operands is a string, the other is converted to a string and the addition equation results in a concatenation
+
 - [How does the Modulo (%), or Remainder, operator work?](https://javascript.info/operators#remainder)
+
+> It will result in what remains of the integer division of the first integer by the second integer.
+
 - [What’s the difference between `==` and `===`?](https://www.w3schools.com/js/js_operators.asp)
+
+> `==` means equal to, and `===` means equal in value and type.
+
 - [When would you receive a `NaN` result?](https://www.w3schools.com/js/js_numbers.asp)
 - [How do you increment and decrement a number?](https://javascript.info/operators#increment-decrement)
 - [What’s the difference between prefixing and postfixing increment/decrement operators?](https://javascript.info/operators#increment-decrement)
