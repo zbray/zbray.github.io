@@ -182,12 +182,46 @@ JavaScript follows the standard mathematical Order of Operations
 
 - [What’s the difference between `==` and `===`?](https://www.w3schools.com/js/js_operators.asp)
 
-> `==` means equal to, and `===` means equal in value and type.
+> `==` is the comparison operator. it checks for equality and will return true if both values are equivalent after coercing their types to the same type. `===` means equal in value and type. (ex. `0 == false`, `"5" == 5`). `===` is the identity operator. it checks for strict equality and will only return true if the value and type of the operands are identical.
 
 - [When would you receive a `NaN` result?](https://www.w3schools.com/js/js_numbers.asp)
+
+> By doing arithmetic with a non-numeric string (ex. `let x = 100 / "10"`)
+
 - [How do you increment and decrement a number?](https://javascript.info/operators#increment-decrement)
+
+> `++` will increase a variable by 1. `--` will decrease a variable by 1.
+
+ex.
+
+```js
+let counter = 2;
+counter++; // a shorter version of counter = counter + 1
+alert ( counter ); //3
+```
+
+```js
+let counter = 2;
+counter--; // a shorter version of counter = counter - 1
+alert ( counter ); //1
+```
+
 - [What’s the difference between prefixing and postfixing increment/decrement operators?](https://javascript.info/operators#increment-decrement)
+
+> Prefix form (`++counter`) changes the value first and then returns the new value. Postfix form (`counter++`) returns the current value first then changes the value. We'd use prefix when we need the updated value first, and the postfix when the need the original value first.
+
 - [What is operator precedence and how is it handled in JS?](https://javascript.info/operators#operator-precedence)
+
+> Essentially PEMDAS, the order of operations in expressions. There is a precedence table that lists the order of precedence for all operators.
+
 - [How do you access developer tools and the console?](https://www.theodinproject.com/lessons/foundations-variables-and-operators#how-to-run-javascript-code)
+
+> Right click anywhere on a webpage and click on "Inspect" and there will be "Console" tab.
+
 - [How do you log information to the console?](https://www.theodinproject.com/lessons/foundations-variables-and-operators#how-to-run-javascript-code)
+
+> `console.log("information")`
+
 - [What does unary plus operator do to string representations of integers? eg. +”10”](https://javascript.info/operators#numeric-conversion-unary)
+
+> It converts the string into an integer. `+"10"` would convert the string `"10"` to the integer `10`
