@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Day One (Again)"
-date: 2025-12-04 22:45:00 -0500
+date: 2025-12-04 22:45:00
 ---
 
 5 December 2025 20:30-21:30
