@@ -4,5 +4,47 @@ title: "Night 3"
 date: 2025-12-06 22:45:00 -0500
 ---
 
-6 December 2025, 8:30-9:00 and 9:50-10:30
+6 December 2025, 9:00-10:00
+
+## Leetcode warmup
+
+2634 - Filter Elements from Array
+
+"Given an integer array arr and a filtering function fn, return a filtered array filteredArr.
+
+Please solve it without the built-in Array.filter method."
+
+The solution here is to use a for loop to loop through the array, solution below;
+
+```js
+var filter = function(arr, fn) {
+  const result = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (fn(arr[i], i)) {
+      result.push(arr[i]);
+    }
+  }
+  return result;
+};
+```
+
+## Code Wars warmup
+
+"It's the academic year's end, fateful moment of your school report. The averages must be calculated. All the students come to you and entreat you to calculate their average for them. Easy ! You just need to write a script.
+
+Return the average of the given array rounded down to its nearest integer."
+
+The solution here is to use the `reduce` method on the `marks` array to grab the sum of the marks, and then apply `Math.floor` on the average to get the final integer rounded down.
+
+```js
+function getAverage(marks){
+  const sum = marks.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+  const average = sum / marks.length;
+  return Math.floor(average);
+}
+```
+
+Completed the Knowledge Check questions that were left unfinished from Day 1, 4 December.
+
+Installed `nvm`, Node Version Manager - this allows us to change Node versions and upgrade node. Will install `npm` later as well.
 
