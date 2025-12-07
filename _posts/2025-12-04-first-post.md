@@ -157,3 +157,22 @@ JavaScript follows the standard mathematical Order of Operations
 1. **Parentheses** (or Brackets) are evaluated first.
 2. **Multiplication** and **Division** are done next, from left to right.
 3. **Addition** and **Subtraction** are done last, from left to right.
+
+ Knowledge Check
+
+- [What three keywords can you use to declare new variables?](https://www.theodinproject.com/lessons/foundations-variables-and-operators#variables)
+
+>
+
+- [Which of the three variable declarations should you avoid and why?](https://www.theodinproject.com/lessons/foundations-variables-and-operators#variables)
+- [What rules should you follow when naming variables?](https://javascript.info/variables#variable-naming)
+- [What happens when you add numbers and strings together?](https://javascript.info/operators#string-concatenation-with-binary)
+- [How does the Modulo (%), or Remainder, operator work?](https://javascript.info/operators#remainder)
+- [What’s the difference between `==` and `===`?](https://www.w3schools.com/js/js_operators.asp)
+- [When would you receive a `NaN` result?](https://www.w3schools.com/js/js_numbers.asp)
+- [How do you increment and decrement a number?](https://javascript.info/operators#increment-decrement)
+- [What’s the difference between prefixing and postfixing increment/decrement operators?](https://javascript.info/operators#increment-decrement)
+- [What is operator precedence and how is it handled in JS?](https://javascript.info/operators#operator-precedence)
+- [How do you access developer tools and the console?](https://www.theodinproject.com/lessons/foundations-variables-and-operators#how-to-run-javascript-code)
+- [How do you log information to the console?](https://www.theodinproject.com/lessons/foundations-variables-and-operators#how-to-run-javascript-code)
+- [What does unary plus operator do to string representations of integers? eg. +”10”](https://javascript.info/operators#numeric-conversion-unary)
